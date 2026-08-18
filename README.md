@@ -9,7 +9,7 @@ ai-ar-collection-risk-system/
 │   ├── workflow_contract.jpg
 │   ├── workflow_risk.jpg
 │   └── multi_agent_coze.jpg
-├── data/                    # 样本数据（必须进行脱敏处理！）
+├── data/                    # 样本数据
 │   └── mock_contracts/      # 样例合同 PDF/Word
 ├── src/                     # 源码（如果写了纯 Python/LangChain 脚本）
 │   ├── agents/              # Contract-Agent & Risk-Agent 代码
