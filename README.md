@@ -82,3 +82,23 @@ DASHSCOPE_API_KEY="your_qwen_api_key"
 
 ### 4. 多智能体协作编排
 ![多智能体界面](docs/multi_agent.jpg)
+## 💡 输出样例展示 (Sample Output)
+
+### 1. Contract-Agent 合同解析输出 (JSON)
+```json
+{
+  "contract_id": "CT-2026-008",
+  "client_name": "XX科技股份有限公司",
+  "payment_term_days": 60,
+  "risk_clauses": {
+    "ownership_reserved": true,
+    "dispute_resolution": "乙方所在地法院"
+  },
+  "extraction_confidence": 0.98
+}
+```
+
+### 2. Risk-Agent 综合风控决策报告
+> **客户风险等级**：中高风险 (Level 3)  
+> **核心触发因素**：近 30 天出现 2 条诉讼被执行记录；历史 DSO 达 85 天（超标准 25 天）。  
+> **催收策略建议**：建议暂停新订单发货，要求财务先追回欠款 50% 并在 3 日内发出律师函提示。
