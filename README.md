@@ -71,3 +71,14 @@ pip install -r requirements.txt
 OPENAI_API_KEY="your_api_key"
 DASHSCOPE_API_KEY="your_qwen_api_key"
 ```
+### 1. 客户审批主工作流
+![客户审批工作流](docs/workflow_review.jpg)
+
+### 2. 合同智能解析工作流
+![合同审核工作流](docs/workflow_contract.jpg)
+
+### 3. 风险与价值评估工作流
+![风险评估工作流](docs/workflow_risk.jpg)
+
+### 4. 多智能体协作编排
+![多智能体界面](docs/multi_agent.jpg)
